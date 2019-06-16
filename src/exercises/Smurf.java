@@ -26,16 +26,26 @@ public class Smurf {
 	/* Papa Smurf wears a red hat, all the others are white. */
 	public String getHatColor() {
 		// 3. Fill in this method
-		return "";
+		if (name == "Papa") {
+			return name + " This smurf wears a red hat.";
+		} else {
+			return name + " This smurf wears a white hat.";
+		}
+
 	}
 
-	/* Smurfette is the only female Smurf. */
+
+	/* Smurfette is the only female Smurf  magically created from clay by Gargamel. */
 	public String isGirlOrBoy() {
 		// 4. Fill in this method
-		return "";
+		 if (this.name.equalsIgnoreCase("Smurfette")) {
+      	   System.out.println("This smurf is a girl");
+         } else {
+      	   System.out.println("This smurf is Gargamel's pawn");
+         }
+         return "";
 	}
 
 }
-
 
 
